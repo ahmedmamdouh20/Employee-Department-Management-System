@@ -1,0 +1,38 @@
+databaseChangeLog:
+  - changeSet:
+      id: 004-insert-employee
+      author: Ahmed Mamdouh
+      changes:
+        - insert:
+            tableName: employees
+            columns:
+              - column:
+                  name: first_name
+                  value: Ahmed
+              - column:
+                  name: last_name
+                  value: Mamdouh
+              - column:
+                  name: email
+                  value: ahmed.mamdouh@example.com
+              - column:
+                  name: phone_number
+                  value: "01112932188"
+              - column:
+                  name: hire_date
+                  valueDate: '2024-01-15'
+              - column:
+                  name: salary
+                  valueNumeric: 15000.00
+              - column:
+                  name: position
+                  value: Software Engineer
+              - column:
+                  name: status
+                  value: ACTIVE
+              - column:
+                  name: department_id
+                  valueNumeric: 100
+              - column:
+                  name: manager_id
+                  value: null

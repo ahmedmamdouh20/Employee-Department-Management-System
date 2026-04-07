@@ -1,0 +1,3 @@
+firstName,lastName,email,phoneNumber,hireDate,salary,position,departmentId,status,managerId
+Ahmed,Mamdouh,ahmed@example.com,+201001234567,2026-04-01,15000.00,Backend Engineer,1,ACTIVE,
+Sara,Ali,sara@example.com,+201001234568,2026-04-02,16000.00,QA Engineer,1,ACTIVE,1

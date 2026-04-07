@@ -1,0 +1,20 @@
+databaseChangeLog:
+  - changeSet:
+      id: 003-insert-department
+      author: Ahmed Mamdouh
+      changes:
+        - insert:
+            tableName: departments
+            columns:
+              - column:
+                  name: id
+                  valueNumeric: 100
+              - column:
+                  name: name
+                  value: Integration Department
+              - column:
+                  name: description
+                  value: Integrate and maintains the applications
+              - column:
+                  name: status
+                  value: ACTIVE
